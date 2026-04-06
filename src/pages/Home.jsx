@@ -288,14 +288,14 @@ const Home = () => {
                     <div className="text-base font-black">App Store</div>
                   </div>
                 </a>
-                <a href="https://play.google.com" target="_blank" rel="noopener noreferrer"
-                  className="flex items-center gap-3.5 bg-white text-brand-darkGray px-6 py-4 rounded-2xl hover:bg-gray-100 transition-colors shadow-xl">
+                <div className="flex items-center gap-3.5 bg-white/80 text-brand-darkGray px-6 py-4 rounded-2xl shadow-xl opacity-70 cursor-not-allowed relative">
                   <FaGooglePlay className="w-6 h-6 flex-shrink-0 text-green-500" />
                   <div>
                     <div className="text-xs text-gray-500">Get it on</div>
                     <div className="text-base font-black">Google Play</div>
                   </div>
-                </a>
+                  <span className="ml-2 text-[10px] font-bold bg-amber-100 text-amber-600 px-2 py-0.5 rounded-full">Coming Soon</span>
+                </div>
               </div>
             </motion.div>
 

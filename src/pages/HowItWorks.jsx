@@ -138,14 +138,14 @@ const HowItWorks = () => (
                 <div className="font-bold text-sm">App Store</div>
               </div>
             </a>
-            <a href="https://play.google.com" target="_blank" rel="noopener noreferrer"
-              className="flex items-center gap-3 bg-white text-brand-darkGray px-6 py-3.5 rounded-2xl hover:bg-gray-50 transition shadow-lg">
+            <div className="flex items-center gap-3 bg-white/80 text-brand-darkGray px-6 py-3.5 rounded-2xl shadow-lg opacity-70 cursor-not-allowed">
               <FaGooglePlay className="w-5 h-5 text-green-500" />
               <div className="text-left">
                 <div className="text-xs text-gray-400">Get it on</div>
                 <div className="font-bold text-sm">Google Play</div>
               </div>
-            </a>
+              <span className="ml-1 text-[10px] font-bold bg-amber-100 text-amber-600 px-2 py-0.5 rounded-full">Coming Soon</span>
+            </div>
           </div>
         </motion.div>
       </div>

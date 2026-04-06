@@ -90,14 +90,14 @@ const Footer = () => {
                   <div className="text-sm font-semibold text-white">App Store</div>
                 </div>
               </a>
-              <a href="https://play.google.com" target="_blank" rel="noopener noreferrer"
-                className="flex items-center gap-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-4 py-3 transition-all duration-200">
+              <div className="flex items-center gap-3 bg-white/5 border border-white/10 rounded-xl px-4 py-3 opacity-60 cursor-not-allowed">
                 <FaGooglePlay className="w-4 h-4 text-green-400 flex-shrink-0" />
                 <div>
                   <div className="text-xs text-white/40">Get it on</div>
                   <div className="text-sm font-semibold text-white">Google Play</div>
                 </div>
-              </a>
+                <span className="ml-auto text-[10px] font-bold bg-brand-yellow/20 text-brand-yellow px-2 py-0.5 rounded-full">Soon</span>
+              </div>
             </div>
           </div>
         </div>

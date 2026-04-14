@@ -15,8 +15,8 @@ const Contact = () => {
   }
 
   const info = [
-    { icon: HiMail, label: "Email", value: "hello@raleeygo.com", href: "mailto:hello@raleeygo.com" },
-    { icon: HiPhone, label: "Phone", value: "+44 20 1234 5678", href: "tel:+442012345678" },
+    { icon: HiMail, label: "Email", value: "hello@raleeygo.com", href: "mailto:naf.amosa@gmail.com" },
+    { icon: HiPhone, label: "Phone", value: "+44 74 6302 5537", href: "tel:+447463025537" },
     { icon: HiLocationMarker, label: "Address", value: "London, United Kingdom", href: null },
   ]
 

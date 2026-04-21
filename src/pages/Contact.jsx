@@ -11,11 +11,14 @@ const Contact = () => {
 
   const handleSubmit = e => {
     e.preventDefault()
+    const body = encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`)
+    const subject = encodeURIComponent(`[RaleeyGo] ${form.subject}`)
+    window.location.href = `mailto:hello@raleeygo.com?subject=${subject}&body=${body}`
     setSent(true)
   }
 
   const info = [
-    { icon: HiMail, label: "Email", value: "hello@raleeygo.com", href: "mailto:naf.amosa@gmail.com" },
+    { icon: HiMail, label: "Email", value: "hello@raleeygo.com", href: "mailto:hello@raleeygo.com" },
     { icon: HiPhone, label: "Phone", value: "+44 74 6302 5537", href: "tel:+447463025537" },
     { icon: HiLocationMarker, label: "Address", value: "London, United Kingdom", href: null },
   ]
